@@ -1,10 +1,87 @@
-<html>
-  <body>
-    <p>
-      <center><h1>
-      Welcome to emahar Softwares</h1>
-        </center>
-    </p>
-    <hr>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eMahar Software List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        a.button {
+            display: inline-block;
+            padding: 6px 12px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        a.button:hover {
+            background-color: #218838;
+        }
+        a.view-button {
+            background-color: #17a2b8;
+        }
+        a.view-button:hover {
+            background-color: #117a8b;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Software Projects</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S#</th>
+                <th>Software</th>
+                <th>Description</th>
+                <th>Images</th>
+                <th>Download</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Desktop POS</td>
+                <td>POS for Pizza Hut, Restaurant</td>
+                <td><a href="images/pos.jpg" target="_blank" class="button view-button">View</a></td>
+                <td><a href="downloads/pos.zip" class="button">Click to Download</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>OPD Token</td>
+                <td>Clinic Token for OPD</td>
+                <td><a href="images/opd.jpg" target="_blank" class="button view-button">View</a></td>
+                <td><a href="downloads/opd.zip" class="button">Click to Download</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
 </html>
