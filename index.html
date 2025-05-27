@@ -120,7 +120,11 @@
     <footer style="margin-top: 40px; text-align: center; color: #555; font-size: 14px;">
         <hr style="margin-bottom: 10px;">
         <p>Contact: <a href="mailto:youremail@example.com">info.emahar@gmail.com</a> | WhatsApp: +92-300-2676352</p>
-        <p>&copy; 2025 emahar. All rights reserved.</p>
+       <p>&copy; <span id="year"></span> emahar. All rights reserved.</p>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
     </footer>
 
 </body>
