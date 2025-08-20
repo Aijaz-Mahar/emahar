@@ -51,86 +51,106 @@
         }
 
         .profile {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    text-align: center;
-}
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-align: center;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid #007bff;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+        .profile .name {
+            margin-top: 6px;
+            font-weight: bold;
+            color: #333;
+            font-size: 14px;
+        }
 
-.profile img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 2px solid #007bff;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-}
-
-.profile .name {
-    margin-top: 6px;
-    font-weight: bold;
-    color: #333;
-    font-size: 14px;
-}
-
+        /* ✅ Branding header styles */
+        .branding {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .branding h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #007bff;
+        }
+        .branding h2 {
+            font-size: 20px;
+            margin: 0;
+            color: #555;
+            letter-spacing: 2px;
+        }
     </style>
 </head>
 <body>
 <div class="profile">
- <img src="https://Aijaz-Mahar.github.io/emahar/images/aijaz.jpg" alt="Aijaz Mahar">
+    <img src="https://Aijaz-Mahar.github.io/emahar/images/aijaz.jpg" alt="Aijaz Mahar">
     <div class="name">emahar</div>
 </div>
 
-    <h1>Softwares List</h1>
-    <h2>Download Free </h2>
-    <table>
-        <thead>
-            <tr>
-                <th>S#</th>
-                <th>Software</th>
-                <th>Description</th>
-                <th>Images</th>
-                <th>Video</th>
-                <th>Download</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>ePOS</td>
-                <td>POS for Pizza Hut, Fast Food and Restaurant etc</td>
-                <td><a href="https://drive.google.com/drive/folders/1gFl58suYnVSTHfC88sxgzEB2ZnjK2Dt0?usp=drive_link" target="_blank" class="button view-button">View</a></td>
-                <td><a href="https://drive.google.com/file/d/1FZ8oa3eoiDQNhqbcKBHXw3H6ssyWZXQh/view?usp=sharing" class="button">Watch</a></td>
-                <td><a href="https://drive.google.com/file/d/1jZenNmD1Vdpj2b40wBQ8AhB7Pax6g5KS/view?usp=drive_link" class="button">Download</a></td>
-         
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>OPD Token</td>
-                <td>"OPD Tokens for Hospital/Clinic – Managing Tokens for Multiple Doctors </td>
-                <td><a href="images/opd.jpg" target="_blank" class="button view-button">View</a></td>
-                <td><a href="https://drive.google.com/file/d/1FZ8oa3eoiDQNhqbcKBHXw3H6ssyWZXQh/view?usp=sharing" class="button">Watch</a></td>
-                <td><a href="downloads/opd.zip" class="button">Download</a></td>
-            </tr>
-              <tr>
-                <td>3</td>
-                <td>School Management System <br> (Web Based)</td>
-                <td>Addmission Form, Fees Structure, Attendance, Fees Challan, ID Card, Result Card etc </td>
-                <td><a href="images/opd.jpg" target="_blank" class="button view-button">View</a></td>
-                  <td><a href="https://drive.google.com/file/d/15apLBf74WJM6iJAkmpAUdTAXivBk9nEs/view?usp=sharing" class="button">Watch</a></td>
-                <td><a href="downloads/opd.zip" class="button">Download</a></td>
-            </tr>
-        </tbody>
-    </table>
-    <footer style="margin-top: 40px; text-align: center; color: #555; font-size: 14px;">
-        <hr style="margin-bottom: 10px;">
-        <p>Contact: <a href="mailto:youremail@example.com">info.emahar@gmail.com</a> | WhatsApp: +92-300-2676352</p>
-       <p>&copy; <span id="year"></span> emahar. All rights reserved.</p>
-<script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+<!-- ✅ Branding Header -->
+<div class="branding">
+    <h1>Technocrat</h1>
+    <h2>Digital Rainbow</h2>
+</div>
 
-    </footer>
+<h1>Softwares List</h1>
+<h2>Download Free</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>S#</th>
+            <th>Software</th>
+            <th>Description</th>
+            <th>Images</th>
+            <th>Video</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>ePOS</td>
+            <td>POS for Pizza Hut, Fast Food and Restaurant etc</td>
+            <td><a href="https://drive.google.com/drive/folders/1gFl58suYnVSTHfC88sxgzEB2ZnjK2Dt0?usp=drive_link" target="_blank" class="button view-button">View</a></td>
+            <td><a href="https://drive.google.com/file/d/1FZ8oa3eoiDQNhqbcKBHXw3H6ssyWZXQh/view?usp=sharing" class="button">Watch</a></td>
+            <td><a href="https://drive.google.com/file/d/1jZenNmD1Vdpj2b40wBQ8AhB7Pax6g5KS/view?usp=drive_link" class="button">Download</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>OPD Token</td>
+            <td>OPD Tokens for Hospital/Clinic – Managing Tokens for Multiple Doctors</td>
+            <td><a href="images/opd.jpg" target="_blank" class="button view-button">View</a></td>
+            <td><a href="https://drive.google.com/file/d/1FZ8oa3eoiDQNhqbcKBHXw3H6ssyWZXQh/view?usp=sharing" class="button">Watch</a></td>
+            <td><a href="downloads/opd.zip" class="button">Download</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>School Management System <br> (Web Based)</td>
+            <td>Admission Form, Fees Structure, Attendance, Fees Challan, ID Card, Result Card etc</td>
+            <td><a href="images/opd.jpg" target="_blank" class="button view-button">View</a></td>
+            <td><a href="https://drive.google.com/file/d/15apLBf74WJM6iJAkmpAUdTAXivBk9nEs/view?usp=sharing" class="button">Watch</a></td>
+            <td><a href="downloads/opd.zip" class="button">Download</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<footer style="margin-top: 40px; text-align: center; color: #555; font-size: 14px;">
+    <hr style="margin-bottom: 10px;">
+    <p>Contact: <a href="mailto:info.emahar@gmail.com">info.emahar@gmail.com</a> | WhatsApp: +92-300-2676352</p>
+    <p>&copy; <span id="year"></span> emahar. All rights reserved.</p>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</footer>
 
 </body>
 </html>
